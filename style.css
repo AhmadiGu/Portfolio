@@ -55,7 +55,7 @@ section.explain {
 
 section.explain img {
   margin-left: 67.3%;
-  margin-top: -47%;
+  margin-top: -52%;
   height: 380px;
 }
 
@@ -111,10 +111,11 @@ div.contact ul a {
   font-weight: bold;
   color: aliceblue;
   font-size: 30px;
+  margin-top: 30px;
 }
 
 .contact i {
   padding-right: 20px;
-} 
+}
 
 /* section end */
