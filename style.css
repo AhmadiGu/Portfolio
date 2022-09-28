@@ -29,7 +29,9 @@ a {
 
 button {
   margin-left: 22%;
-  background-color: #1c1a19;
+  background-color: #161515;
+  border: none;
+  outline: none;
 }
 
 i.fa-bars {
