@@ -46,15 +46,15 @@ section.explain {
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
+  padding-bottom: 50px;
   position: relative;
-  height: 420px;
   left: 0;
   top: 92px;
   background: #1c1a19;
 }
 
 section.explain img {
-  margin-left: 67.3%;
+  margin-left: 59.5%;
   margin-top: -52%;
   height: 380px;
 }
@@ -121,20 +121,48 @@ div.contact ul a {
 /* section explain end */
 
 /* section works start */
-.works {
-  background: rgb(247, 245, 245);
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+div.works {
+  background: #fff;
   margin: 0%;
   padding: 0%;
   width: 378px;
   position: relative;
-  height: 3500px;
-  margin-top: 90px;
+  display: grid;
 }
 
 .title {
   width: 327px;
   height: 83px;
   padding-top: 25%;
+  padding-bottom: 5%;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -143,14 +171,19 @@ div.contact ul a {
   display: flex;
   align-items: center;
   color: #1c1a19;
-  margin-left: 10%;
+  margin-left: 7%;
   margin-top: 0%;
+  background-color: #ff6b00;
 }
 
 hr {
   width: 326px;
   height: 0;
   border: 1px solid #313030;
+}
+
+.about hr {
+  border: 1px solid #e2dfdf;
 }
 
 div.image {
@@ -203,6 +236,12 @@ div.lessons span {
   background: #fff;
   border: 1px solid #8993a4;
   margin-right: 5%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
 }
 
 span.html {
@@ -235,13 +274,34 @@ button.see {
   margin-bottom: 50px;
 }
 
+button.see:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button.see:active {
+  background: #e05304;
+  color: #fff5e1;
+}
+
+button.see:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
 /* profitional part */
+div.subjects {
+  position: relative;
+  background: #fff;
+}
+
 div.profesional {
   margin: 0%;
   padding: 0%;
+  margin-left: 3%;
   width: 330px;
   height: 386px;
-  margin-left: 6.5%;
   position: absolute;
   background-image: url(images/Img\ Placeholder1.png);
 }
@@ -256,7 +316,7 @@ div.profesional h3 {
   align-items: center;
   color: #f1f3f7;
   margin-left: 6.5%;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .profesional p {
@@ -274,7 +334,7 @@ div.language {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 6.5%;
+  margin-left: 2%;
   margin-bottom: 2%;
 }
 
@@ -284,6 +344,12 @@ div.language span {
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
   margin-right: 5%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
 }
 
 button.see-project {
@@ -297,24 +363,41 @@ button.see-project {
   margin-left: 0%;
 }
 
+button.see-project:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button.see-project:active {
+  background: #e05304;
+  color: #fff5e1;
+}
+
+button.see-project:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
 div.p-2 {
-  margin-top: 420px;
+  margin-top: 444px;
 }
 
 div.p-3 {
-  margin-top: 840px;
+  margin-top: 888px;
 }
 
 div.p-4 {
-  margin-top: 1260px;
+  margin-top: 1332px;
 }
 
 div.p-5 {
-  margin-top: 1680px;
+  margin-top: 1776px;
 }
 
 div.p-6 {
-  margin-top: 2100px;
+  margin-top: 2220px;
+  margin-bottom: 100px;
 }
 
 /* section works end */
@@ -325,7 +408,7 @@ div.p-6 {
   width: 378px;
   height: 1801px;
   left: 0;
-  top: 4250px;
+  top: 4500px;
   background: #1c1a19;
   display: flex;
   align-items: center;
