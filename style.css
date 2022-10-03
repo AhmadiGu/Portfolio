@@ -173,7 +173,7 @@ div.works {
   color: #1c1a19;
   margin-left: 7%;
   margin-top: 0%;
-  background-color: #ff6b00;
+   
 }
 
 hr {
@@ -219,7 +219,7 @@ p.content {
   color: #091e42;
   margin-left: 6.5%;
 }
-/*
+
 div.lessons {
   display: flex;
   flex-direction: row;
@@ -228,17 +228,15 @@ div.lessons {
   margin-bottom: 2%;
   margin-top: -6%;
 }
-div.lessons{
-  background: #e05304;
-}
+ 
 
-div.lessons div {
+div.lessons span {
   box-sizing: border-box;
   padding: 10px 12px;
    
   background: #fff;
   border: 1px solid #8993a4;
-  
+   margin-left: 3%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -248,33 +246,31 @@ div.lessons div {
 
 }
 */
-div.lessons{
+span.lessons{
   background: skyblue;
 }
-div.html {
-  background: sandybrown;
-
+span.html { 
   width: 56px;
-  float: right;
+   
 }
 
-div.css {
+span.css {
   width: 56px;
-  height: 20px;
-  float: left;
-  margin-left:3%;
+  
+  
+   
 }
 
-div.bootstrap {
+span.bootstrap {
   width: 95px;
-  height: 20px;
-  float: center;
+  
+  
 }
 
-div.ruby {
+span.ruby {
   width: 56px;
-  height: 20px;
-  float: right;
+  
+   
 }
 
 button.see {
