@@ -1,7 +1,7 @@
 # Portfolio
 
 > Project Description.
-> **This is my Portfolio project created using html, css . It is in mobile view. It uses  flex-box to display the html page. It contains headline. It uses a figma template 2 from microverse student portal..**
+> **This is my Portfolio project created using html, css . It is in mobile view. It uses  flex-box to display the html page. It contains headline and also the works section and some information in about me part. It uses a figma template 2 from microverse student portal..**
 
 
 ## Built With
