@@ -68,6 +68,32 @@ section.contact .textarea::placeholder {
   color: #3c3a39;
 }
 
+button.touch {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #ff6b00;
+  padding: 15px;
+  font-size: 18px;
+  margin-left: 31%;
+  margin-bottom: 40px;
+}
+
+button.touch:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button.touch:active {
+  background: #e05304;
+  color: #fff5e1;
+}
+
+button.touch:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
 
 section.contact hr {
   background: #dfe1e6;
